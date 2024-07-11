@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact Us</title>
+    <link rel="stylesheet" href="./contact.css" />
+  </head>
+  <body>
+    <nav>
+      <h1>Traavlers.Co</h1>
+      <ul>
+        <li><a href="./index.html" id="home">Home</a></li>
+        <li><a href="./aboutus.html" id="aboutus">About Us</a></li>
+        <li><a href="./conatactus.html" id="content">Contact Us</a></li>
+      </ul>
+    </nav>
+    <div class="contact-us">
+      <h2>Contact Us</h2>
+      <p class="tagline">Meet You Soon!</p>
+      <form>
+        <label for="name">Name:</label><br />
+        <input
+          type="text"
+          id="name"
+          name="name"
+          placeholder="Your name"
+          required
+        /><br />
+
+        <label for="email">Email:</label><br />
+        <input
+          type="email"
+          id="email"
+          name="email"
+          placeholder="Your email"
+          required
+        /><br />
+
+        <label for="message">Message:</label><br />
+        <textarea
+          id="message"
+          name="message"
+          placeholder="Your message here..."
+          rows="10"
+          cols="50"
+        ></textarea
+        ><br />
+
+        <button type="submit">Send Message</button>
+      </form>
+    </div>
+  </body>
+</html>
